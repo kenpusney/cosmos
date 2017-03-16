@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="DataSource\DataSource.h">
+      <Filter>DataSource</Filter>
+    </ClInclude>
+    <ClInclude Include="Service\CosmosQueryService.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity\Entity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Service\CosmosQueryServiceFactory.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Service\DefaultCosmosQueryService.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="CosmosQuery.h" />
+    <ClInclude Include="Entity\IdentifiedEntity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Cosmos.cpp" />
+    <ClCompile Include="DataSource\DataSource.cpp">
+      <Filter>DataSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Service\CosmosQueryService.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity\Entity.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Service\CosmosQueryServiceFactory.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Service\DefaultCosmosQueryService.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="CosmosQuery.cpp" />
+    <ClCompile Include="Entity\IdentifiedEntity.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="DataSource">
+      <UniqueIdentifier>{3e303850-bbb2-4f6a-b0f6-0e9fc6470e85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{1120696d-24fd-4799-a180-64cfa75cd52a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Service">
+      <UniqueIdentifier>{cba9d97d-bf71-4743-b501-907a27ba01a2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
