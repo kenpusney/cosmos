@@ -106,7 +106,7 @@ bool DefaultCosmosQueryService::QuerySubEntities(IdentifiedEntity &root)
 
 	MYSQL_RES *res = mysql_store_result(_dataSource);
 	if (!res)
-		return NULL;
+		return false;
 
 	MYSQL_ROW row;
 	while ((row = mysql_fetch_row(res)))
